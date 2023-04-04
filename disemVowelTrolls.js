@@ -7,5 +7,4 @@ function disemvowel(str) {
     };
     return newStr;
 };
-
 console.log(disemvowel("hi how are you"));
