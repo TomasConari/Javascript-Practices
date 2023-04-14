@@ -1,0 +1,1 @@
+In this exercises im using Fetch Api wich comes by default with Node enviroment
