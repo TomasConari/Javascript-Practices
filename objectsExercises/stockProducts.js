@@ -1,3 +1,8 @@
+/*
+A store needs to make a receipt with the purchase data: name, address, product, Quantity and total.
+Take into account the stock of the product in each of the 3 stores and when making the purchase,
+discount the purchased quantity of the product from the stock of the respective store
+*/
 const productsInfo = [
     {
         name: "Shirt",

@@ -1,0 +1,1 @@
+Here are some exercises from Codewars, each exercise has it´s url, name and explanation.

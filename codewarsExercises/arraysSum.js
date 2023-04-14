@@ -1,3 +1,4 @@
+//Unsolved
 const arraySum = (nums1,nums2) => {
     let sums = [];
     for(let i = 0; i < nums1.length; i += 1){

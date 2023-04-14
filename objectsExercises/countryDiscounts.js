@@ -1,3 +1,7 @@
+/*
+A store needs to make a receipt with the purchase data: name, address, product, Quantity and total.
+note that the product discount depends on the customer's country of residence 
+*/
 const productsInfo = [
     {
         name: "Shirt",
@@ -20,7 +24,6 @@ const productsInfo = [
         price: 15.99
     }
 ];
-
 const customersInfo = [
     {
         name: 'John',
@@ -59,7 +62,6 @@ const customersInfo = [
         discount: 0.50
     }
 ];
-
 const createBill = (userName, productName, productQuantity) =>{
     const userPosition = customersInfo.findIndex(customer => customer.name === userName);
     const productPosition = productsInfo.findIndex(product => product.name === productName);

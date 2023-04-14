@@ -1,3 +1,6 @@
+/*
+A store needs to make a receipt with the purchase data: name, address, product, Quantity and total. 
+*/
 const productsInfo = [
     {
         name: "Shirt",

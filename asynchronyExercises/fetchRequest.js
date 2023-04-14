@@ -1,3 +1,6 @@
+//In this exercise I used Fetch to fetch the data for Star wars characters from the Swapi page, then fetched only 
+//the data I needed and filtered out only characters taller than 175cm.
+//Then I also brought the movies and organized them in chronological order.
 const getCharacters = async () => {
     try{
         const rawData = await fetch('https://swapi.dev/api/people/');

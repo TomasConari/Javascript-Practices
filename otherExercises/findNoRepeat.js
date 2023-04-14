@@ -1,3 +1,5 @@
+//given an array of numbers that are repeated more than once, find the only one that is not repeated 
+//(in the array at least one of the numbers has to be unique)
 const findNoRepeat = (numbers) => { 
     let count = 0;
     let noRepeatNumber = 0;

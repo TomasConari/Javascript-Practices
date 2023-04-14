@@ -1,3 +1,20 @@
+/*
+A customer wants to buy a yogurt and must select the
+flavor and quantity. For select a flavor there must to exist
+an id of the yogurt flavor.
+
+After selecting the flavor, there must to be a confirmation,
+if the client isn't sure, it must return to select a flavor.
+
+NOTE: If the id flavor isn't available. send an error
+notification to the customer and end the process.
+
+If the quantity selected is non-existent, you need to
+send a notification to the customer (End process) and
+to the seller (to restock).
+
+Plus: New yogurt flavors can be added by the seller
+*/
 const flavors = ["Natural", "Coconut", "Almond", "Vanilla"];
 const price = [14000,14000,16000,16000];
 const stock = [5,5,2,0];

@@ -1,0 +1,1 @@
+Here are some exercise of logic that I found before learning the Javascript Syntax, i tried to resolve them when i started learning Javascript
