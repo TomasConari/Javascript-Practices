@@ -1,0 +1,2 @@
+In this exercises im using Axios Api, if you want to test the exercises you need to install Axios, in my case I tested it with the Node environment, to install axios open your console in your proyect and execute this: 
+npm install axios
