@@ -90,4 +90,4 @@ const createBill = (userName, productName, productQuantity, storeId) =>{
         return "Store not avaliable"
     };
 };
-console.log(createBill("John","Shirt",4,1));
+console.log(createBill("John", "Shirt", 4, 1));

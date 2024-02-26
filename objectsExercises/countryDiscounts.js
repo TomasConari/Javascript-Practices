@@ -1,6 +1,6 @@
 /*
-A store needs to make a receipt with the purchase data: name, address, product, Quantity and total.
-note that the product discount depends on the customer's country of residence 
+    A store needs to make a receipt with the purchase data: name, address, product, Quantity and total.
+    note that the product discount depends on the customer's country of residence 
 */
 const productsInfo = [
     {
@@ -72,7 +72,6 @@ const createBill = (userName, productName, productQuantity) =>{
         Quantity: productQuantity,
         total: (productsInfo[productPosition].price * productQuantity)*customersInfo[userPosition].discount
     };
-
     return bill;
 };
-console.log(createBill("Peter","Shirt",1));
+console.log(createBill("Peter", "Shirt", 1));

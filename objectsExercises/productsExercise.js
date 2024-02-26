@@ -1,6 +1,5 @@
-/*
-A store needs to make a receipt with the purchase data: name, address, product, Quantity and total. 
-*/
+//A store needs to make a receipt with the purchase data: name, address, product, Quantity and total. 
+
 const productsInfo = [
     {
         name: "Shirt",
@@ -77,4 +76,4 @@ const createBill = (userName, productName, productQuantity) =>{
     };
     return bill;
 };
-console.log(createBill("John","Shirt",1));
+console.log(createBill("John", "Shirt", 1));
