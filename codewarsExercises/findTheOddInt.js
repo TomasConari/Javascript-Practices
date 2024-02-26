@@ -29,4 +29,4 @@ const findOdd = (arr) => {
         }; 
     };
 };
-console.log(findOdd([1,1,1,1,1,2,1,4,4,5,5,6,6,8]));
+console.log(findOdd([1, 1, 1, 1, 1, 2, 1, 4, 4, 2, 5, 5, 6, 6, 8, 2]));

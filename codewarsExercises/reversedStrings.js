@@ -7,9 +7,9 @@ Complete the solution so that it reverses the string passed into it.
 */
 const solution = (str) => {
     const long = str.length;
-    if (long > 1){
+    if(long > 1){
         let reversedString = "";
-        for (let i = long -1; i >= 0; i -= 1){
+        for(let i = long -1; i >= 0; i -= 1){
             reversedString += str[i]
         };
         return reversedString;

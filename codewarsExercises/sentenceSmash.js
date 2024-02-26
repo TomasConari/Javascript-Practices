@@ -11,3 +11,6 @@ Example
 const smash = (words) => {
     return words.join(" ");
 };
+
+const wordsArray = ["Hello", "World"];
+console.log(smash(wordsArray));

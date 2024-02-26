@@ -9,7 +9,14 @@ For example, when an array is passed like [19, 5, 42, 2, 77], the output should 
 
 [10, 343445353, 3453445, 3453545353453] should return 3453455.
 */
-const sumTwoSmallestNumbers = (numbers) => {  
-    numbers.sort()
-    return numbers[0] + numbers[1];
+const sumTwoSmallestNumbers = (numbers) => {
+    numbers.sort((num1, num2) => num1 - num2);
+    for(let i = 0; i < numbers.length; i += 1){
+        if((numbers[i] >= 0) && (numbers[i] % 1 === 0)){
+            return numbers[i] + numbers[i + 1];
+        };
+    };
 };
+
+const numbersArray = [10, 5, 3, 20, 6, 0.5, -1];
+console.log(sumTwoSmallestNumbers(numbersArray));

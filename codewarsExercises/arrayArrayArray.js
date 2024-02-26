@@ -14,16 +14,16 @@ For example:
 if (x) == ['a', 3] you should return [['a', 3], ['a', 3], ['a', 3]].
 */
 const explode = (x) => {
-    if (typeof x[1] === 'number' && typeof x[0] === 'number'){
+    if(typeof x[1] === 'number' && typeof x[0] === 'number'){
         const sum = x[0] + x[1];
         return Array.from({length:sum}).fill(x);
     };
-    if (typeof x[0] === 'number'|| typeof x[1] === 'number'){
+    if(typeof x[0] === 'number'|| typeof x[1] === 'number'){
         let sum = 0;
         typeof x[0] === 'number'?sum = x[0]: sum = x[1];
     return Array.from({length:sum}).fill(x);
     };
-    if (typeof x[1] !== 'number' && typeof x[0] !=='number'){
+    if(typeof x[1] !== 'number' && typeof x[0] !=='number'){
         return 'Void!';
     };
 };

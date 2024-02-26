@@ -16,10 +16,14 @@ const divCon = (x) => {
     };
     let count = 0;
     for(let i = 0; i < x.length; i += 1){
-        if(typeof(x[i]) === "number"){
+        if(!(typeof(x[i]) === "number")){
             count += 1;
         };
     };
     sum -= count;
     return sum;
 };
+
+const mixedArray = [5, "2.5", 3, "1.2", 2];
+
+console.log(divCon(mixedArray));

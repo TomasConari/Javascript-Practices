@@ -38,5 +38,5 @@ const rowWeights = (array) => {
     };
     return [team1, team2];
 };
-const people = [5,5,10,10];
+const people = [8,5,10,19];
 console.log(rowWeights(people));

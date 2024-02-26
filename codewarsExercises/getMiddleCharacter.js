@@ -31,4 +31,4 @@ const getMiddle = (s) => {
     return middle;
   };
 };
-console.log(getMiddle("12345678"))
+console.log(getMiddle("hello"));

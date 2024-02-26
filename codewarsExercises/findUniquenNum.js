@@ -19,3 +19,7 @@ const findUniq = (arr) => {
         return arr[arr.length - 1];
     };
 };
+
+const numArray = [1, 2, 3, 4, 5, 2];
+
+console.log(findUniq(numArray));

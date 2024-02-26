@@ -13,4 +13,4 @@ const removeChar = (str) => {
         return "";
     };
 };
-console.log(removeChar("Hello"));
+console.log(removeChar("Remove First And Last"));

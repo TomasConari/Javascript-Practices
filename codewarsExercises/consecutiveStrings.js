@@ -29,7 +29,7 @@ consecutive strings : follow one after another without an interruption
 */
 const longestConsec = (strarr, k) => {
   let longest = "";
-  for(let i = 0;i <= strarr.length - k;i += 1){
+  for(let i = 0 ;i <= strarr.length - k ;i += 1){
     let temporaryString = strarr.slice(i, i + k).join("");
     if(temporaryString.length > longest.length){
       longest = temporaryString;

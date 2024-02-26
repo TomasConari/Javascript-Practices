@@ -12,4 +12,4 @@ const evenOrOdd = (number) => {
         return "Odd";
     };
 };
-console.log(evenOrOdd(2));
+console.log(evenOrOdd(10));

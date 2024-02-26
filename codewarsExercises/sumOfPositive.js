@@ -22,4 +22,6 @@ const positiveSum = (arr) => {
         return 0;
     };
 };
-console.log(positiveSum([20,30,15,35,-20,-30,-15,-35]));
+
+const numsArray = [20,30,15,35,-20,-30,-15,-35];
+console.log(positiveSum(numsArray));
