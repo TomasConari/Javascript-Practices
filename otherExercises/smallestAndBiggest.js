@@ -15,22 +15,11 @@ Notes
 All test arrays will have at least one element and are valid.
 */
 const minMax = (arr) => {
-    if (arr.length <= 0){
-        return [];
-    } else if (arr.length === 1){
-        return arr;
-    } else {
-        let smallestNum = arr[0];
-        let biggestNum = arr[0];
-        for (let i = 1; i < arr.length; i += 1) {
-            if (arr[i] > biggestNum){
-                biggestNum = arr[i];
-            };
-            if (arr[i] < smallestNum){
-                smallestNum = arr[i];
-            };
-        };
-        return [smallestNum, biggestNum];
+    if(arr.length === 1){
+        return [arr[0], arr[0]];
+    }else{
+        arr.sort((num1, num2) => num1 - num2);
+        return [arr[0], arr[arr.length - 1]];
     };
 };
-console.log(minMax([5, 3, 6, 1, 8, 4, 2, 7, 9, 0]));
+console.log(minMax([5, 10, 8, 7, 14, 11, 3]));

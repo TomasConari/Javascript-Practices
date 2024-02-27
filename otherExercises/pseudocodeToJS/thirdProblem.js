@@ -7,10 +7,10 @@ of legal age and which are not. You also need to know and how many of each.
 */
 const adultStudentsList = [];
 const minorStudentsList = [];
-for (i = 0; i < 25; i += 1){
+for(i = 0; i < 25; i += 1){
     const name = "Tomás";//Introduced by user
     const age = 17;//Introduced by user
-    if (age >= 18){
+    if(age >= 18){
         adultStudentsList.push(name);
     }else{
         minorStudentsList.push(name);
