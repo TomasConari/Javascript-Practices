@@ -118,4 +118,4 @@ const sortBooks = (books) => {
     return authorSortedBooks;
 };
 
-console.log(sortBooks(booksArray))
+console.log(sortBooks(booksArray));
