@@ -1,4 +1,4 @@
-These are some Exercises that I tried to solve while learning Javascript, not all of them are solved.
+Here are the basic concepts of Javascript and some exercises that I solved, not all of them are solved.
 
 My Links:
 
