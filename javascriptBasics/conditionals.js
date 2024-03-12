@@ -7,11 +7,11 @@
         const selectedOption = 2;
         let result = "";
 
-        if (selectedOption === 1) {
+        if(selectedOption === 1){
             result = "Option 1 selected";
-        } else if (selectedOption === 2) {
+        }else if(selectedOption === 2){
             result = "Option 2 selected";
-        } else {
+        }else{
             result = "Invalid Option";
         };
 
@@ -24,7 +24,7 @@
         const dayOfWeek = 7;
         let dayName = "";
 
-        switch (dayOfWeek) {
+        switch(dayOfWeek){
             case 1:
                 dayName = "Monday";
                 break;
