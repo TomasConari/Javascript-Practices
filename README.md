@@ -1,4 +1,4 @@
-Here are the basic concepts of Javascript and some exercises that I solved, not all of them are solved.
+Here are the basic concepts of JavaScript and some exercises that I tried to solve; I managed to solve most of them.
 
 My Links:
 
